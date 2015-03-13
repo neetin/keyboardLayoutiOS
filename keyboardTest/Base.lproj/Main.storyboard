@@ -37,6 +37,7 @@
             <string>SigmarOne</string>
             <string>SigmarOne</string>
             <string>SigmarOne</string>
+            <string>SigmarOne</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -672,6 +673,12 @@
                                     <constraint firstItem="S8k-uO-nW5" firstAttribute="leading" secondItem="bmn-j5-j4q" secondAttribute="leading" id="xPU-AK-Jlg"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yqh-Ae-SSs">
+                                <rect key="frame" x="16" y="28" width="288" height="37"/>
+                                <fontDescription key="fontDescription" name="SigmarOne" family="Sigmar One" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -685,9 +692,13 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="wordLabel" destination="Yqh-Ae-SSs" id="yjD-Em-r4m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="12" y="35"/>
         </scene>
     </scenes>
     <resources>
