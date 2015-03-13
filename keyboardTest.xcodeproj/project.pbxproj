@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9746B01AB1F16B00651CC6 /* SigmarOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EED68291AB1AA6C00CADBB3 /* SigmarOne.ttf */; };
 		8EED68281AB1A13B00CADBB3 /* spiral-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EED68271AB1A13B00CADBB3 /* spiral-bg.png */; };
 		8EF27BBB1AAFFD7400F93112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF27BBA1AAFFD7400F93112 /* AppDelegate.swift */; };
 		8EF27BBD1AAFFD7400F93112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF27BBC1AAFFD7400F93112 /* ViewController.swift */; };
@@ -197,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9746B01AB1F16B00651CC6 /* SigmarOne.ttf in Resources */,
 				8EF27BC01AAFFD7400F93112 /* Main.storyboard in Resources */,
 				8EED68281AB1A13B00CADBB3 /* spiral-bg.png in Resources */,
 				8EF27BC51AAFFD7400F93112 /* LaunchScreen.xib in Resources */,
